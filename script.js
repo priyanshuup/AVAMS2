@@ -2,7 +2,7 @@ gsap.registerPlugin(ScrollTrigger);
 const tl = gsap.timeline({
     scrollTrigger:{
         trigger: ".belowpage",
-        markers:true,
+//         markers:true,
         start: "top top",
         end: "bottom 80%",
         scrub: 5,
